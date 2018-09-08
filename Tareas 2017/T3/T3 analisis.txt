@@ -1,0 +1,33 @@
+Dado n segmentos de línea con coordenadas [Li, Ri] (i = 1,2, ..., n). Se le pedirá que elija el número mínimo de ellos para cubrir completamente el rango [0, M]. Describa un algoritmo greedy que se puede utilizar para resolver este problema. Probar la corrección de su algoritmo.
+
+Idea: 
+Comenzaremos a cubrir la región [0, M] de izquierda a derecha. Sea s el extremo izquierdo de la región que necesitamos cubrir. Al principio,  s = 0. Encuentre el grupo de segmentos cuya coordenada izquierda es ≤ s, ordénelos basándose en su coordenada (Ri) y escoja el segmento        (digamos k) cuya coordenada derecha es la más grande del grupo. Actualizar s = Rk. Repita el proceso hasta s ≥ M.
+
+Algoritmo:
+Entrada: Un conjunto (S) de segmentos con coordenadas [Li, Ri], rango [0, M].
+Salida: Un conjunto (O) de segmentos que cubre el rango [0, M], de manera que el tamaño de O sea minimizado.
+ 
+Empezar:
+Int s = 0; // el extremo izquierdo de la región necesitaba ser cubierto
+Mientras que (s <M) {
+	Int max = 0;
+	Int j = -1; // índice del candidato actual
+	Para cada segmento i en S {
+	Si (Li ≤ s y Ri ≥ máx) {
+		Máx = Ri;
+		J = i;
+	}
+}
+Ponga el segmento j en el conjunto O;
+Retire el segmento j de S;
+S = Rj;
+}
+
+Prueba:
+Sea O el conjunto devuelto por el método greedy. Supongamos que O no es la solución óptima. Entonces existe un conjunto (U) de segmentos que puede cubrir la región [0, M] tal que |U| < |O|. Sea c = |U|, y k = |O|, entonces c < k.
+
+Sea O1, O2, ..., Ok los segmentos en O, en el orden en que son elegidos por el algoritmo greedy. Entonces RO1 < RO2 < ... < ROk-1 < ROk. Del algoritmo greedy tenemos que ROk-1 < M.
+
+Vamos a ordenar los segmentos en U basado en sus coordenadas correctas. Que sean U1, U2, ..., Uc. Entonces, RU1 < RU2 < RU3 < ... < RUC.
+
+Según el método greedy tenemos que RU1 <= RO1 ; RU2 <= RO2 ;...; RUC <= ROC ; Puesto que c < k, entonces, RUC <= ROC <= ROk-1 < M, eso significa que U1, U2, ..., Uc no pueden cubrir toda la región de [0, M]. Así, U no es una solución. La suposición no es correcta. Así, O es la solución óptima.

@@ -1,0 +1,110 @@
+Matriz:
+Fila: Columna: Fila: 10 Columna: 10
+Max sum is: 46370
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 100
+Max sum is: 105749
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 1000
+Max sum is: 654686
+Tiempo de Ejecucion: 0.062500seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 10000
+Max sum is: 2551042
+Tiempo de Ejecucion: 5.531250seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 10
+Max sum is: 156948
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 100
+Max sum is: 409207
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 1000
+Max sum is: 1670866
+Tiempo de Ejecucion: 0.609375seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 10000
+Max sum is: 9133668
+Tiempo de Ejecucion: 60.859375seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 10
+Max sum is: 550038
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 100
+Max sum is: 1884610
+Tiempo de Ejecucion: 0.046875seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 1000
+Max sum is: 9342290
+Tiempo de Ejecucion: 8.203125seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 10000
+Max sum is: 35643051
+Tiempo de Ejecucion: 674.890625seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 10
+Max sum is: 3011056
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 100
+Max sum is: 7461120
+Tiempo de Ejecucion: 0.750000seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 1000
+Max sum is: 35723410
+Tiempo de Ejecucion: 93.531250seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 10
+Max sum is: 46370
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 10
+Max sum is: 156948
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 10
+Max sum is: 550038
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 10
+Max sum is: 3011056
+Tiempo de Ejecucion: 0.015625seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 100
+Max sum is: 105749
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 100
+Max sum is: 409207
+Tiempo de Ejecucion: 0.000000seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 100
+Max sum is: 1884610
+Tiempo de Ejecucion: 0.062500seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 100
+Max sum is: 7461120
+Tiempo de Ejecucion: 0.843750seg
+Matriz:
+Fila: Columna: Fila: 10 Columna: 1000
+Max sum is: 654686
+Tiempo de Ejecucion: 0.062500seg
+Matriz:
+Fila: Columna: Fila: 100 Columna: 1000
+Max sum is: 1670866
+Tiempo de Ejecucion: 0.703125seg
+Matriz:
+Fila: Columna: Fila: 1000 Columna: 1000
+Max sum is: 9342290
+Tiempo de Ejecucion: 7.812500seg
+Matriz:
+Fila: Columna: Fila: 10000 Columna: 1000
+Max sum is: 35723410
+Tiempo de Ejecucion: 100.562500seg
+Matriz:
+Fila: Columna: Fila: 0 Columna: 0
